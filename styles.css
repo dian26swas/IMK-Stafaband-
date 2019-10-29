@@ -1,0 +1,78 @@
+body{
+	background-image:url("background.jpg");
+	font-size:16px;
+
+	font-family: sans-serif;
+}
+
+.content{
+	width: 80%;
+	margin: 10px auto;
+}
+header{
+  
+    padding: 20px 10px;
+    margin-top: 10px;
+	margin-left: 350px;
+	margin-bottom: 10px;
+}
+
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;	
+}
+.menu{
+	background-color:rgba(224, 73, 156, 0.7);
+	
+	border-radius: 8px;	
+	margin-bottom: 10px;
+}
+div.menu ul {
+	list-style:none;
+	overflow: hidden;
+}
+div.menu ul li {
+	float:left;		
+	text-transform:uppercase;
+}
+div.menu ul li a {
+    /* border: 1px solid white; */
+	display:block;	
+	padding:15px;
+	text-decoration:none;
+	color:beige;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
+}
+ 
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:#fff;
+}
+ 
+ 
+div.badan{
+    background-color:rgba(192,192,192,0.3);
+	border-radius: 5px;
+	
+	margin-bottom: 10px;
+}
+ 
+div.halaman{
+	text-align: center;
+	padding: 30px 20px;	
+}
+
+audio {
+	width: 100% ;
+}
+.active
+{
+    background-color:coral;
+      color:#fff;
+      border-radius: 8px;
+      
+}
